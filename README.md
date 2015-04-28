@@ -16,6 +16,6 @@ def chain(a, b):
 [1, 2, 3] ^_^ xrange(10) ^_^ {"take": "that", "PEP": 8}
 ```
 
-All emoticons must currently be of the form x_y, where x and y are one of -,^,+,*,/,&,%. Currently x must have at least as high a precedence as y (so you can't do ^_- yet, only -_-, ^_^, and -_^), but this should be easy to patch. Support for that, and the emoticons ```>_>```, ```>_<```, and ```<_<```, coming as soon as someone asks for it.
+All emoticons must currently be of the form x_y, where x and y are one of -,^,+,*,/,&,%. Currently x must have at least as high a precedence as y (so you can't do ```^_-``` yet, only ```-_-```, ```^_^```, and ```-_^```), but this should be easy to patch. Support for that, and the emoticons ```>_>```, ```>_<```, and ```<_<```, coming as soon as someone asks for it.
 
 Yes, I will use this in my own code.

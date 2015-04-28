@@ -7,10 +7,10 @@ Here's an example of creating a new infix operator ^_^ which chains iterators.
 
 ```
 from smile import emoticon, _
-import itertools
 
 @emoticon("^_^")
 def chain(a, b):
+    import itertools
     return itertools.chain(a, b)
     
 [1, 2, 3] ^_^ xrange(10) ^_^ {"take": "that", "PEP": 8}

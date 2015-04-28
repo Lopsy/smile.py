@@ -16,6 +16,6 @@ def chain(a, b):
 [1, 2, 3] ^_^ xrange(10) ^_^ {"take": "that", "PEP": 8}
 ```
 
-All emoticons must currently be of the form x_y, where x and y are one of -,^,+,*,/,&,%. Support for >_>, >_<, and <_< coming as soon as someone asks for it.
+All emoticons must currently be of the form x_y, where x and y are one of -,^,+,*,/,&,%. Support for ```>_>```, ```>_<```, and ```<_<``` coming as soon as someone asks for it.
 
 Yes, I will use this in my own code.

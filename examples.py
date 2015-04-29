@@ -25,7 +25,7 @@ def testMixedFace():
             a, b = b, a%b
         return product/a
 
-    chainLCM = 2 -_^ 12 -_^ 27 -_^ 5
+    chainLCM = 2 -_+ 12 -_+ 27 -_+ 5
     assert chainLCM == 540
 
     @emoticon("-_^")
